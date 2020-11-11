@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+AUDIO_ENABLE	rules.mk	/^AUDIO_ENABLE = no$/;"	m
+BACKLIGHT_ENABLE	rules.mk	/^BACKLIGHT_ENABLE = no$/;"	m
+CBKP	keymap.c	/^#define CBKP /;"	d	file:
+CENT	keymap.c	/^#define CENT /;"	d	file:
+CESC	keymap.c	/^#define CESC /;"	d	file:
+CINS	keymap.c	/^#define CINS /;"	d	file:
+CLOW	keymap.c	/^#define CLOW /;"	d	file:
+CNON	keymap.c	/^#define CNON /;"	d	file:
+CQUO	keymap.c	/^#define CQUO /;"	d	file:
+CRAI	keymap.c	/^#define CRAI /;"	d	file:
+CTAB	keymap.c	/^#define CTAB /;"	d	file:
+FORCE_NKRO	config.h	/^#define FORCE_NKRO /;"	d
+GRAVE_ESC_GUI_OVERRIDE	config.h	/^#define GRAVE_ESC_GUI_OVERRIDE$/;"	d
+Gaming	readme.md	/^## Gaming$/;"	s
+LOWER	keymap.c	/^  LOWER,$/;"	e	enum:preonic_keycodes	file:
+Lower Layer	readme.md	/^## Lower Layer$/;"	s
+MIDI_ENABLE	rules.mk	/^MIDI_ENABLE = no$/;"	m
+MOUSEKEY_ENABLE	rules.mk	/^MOUSEKEY_ENABLE = no       # Mouse keys(+4700)$/;"	m
+MUSIC_MASK	config.h	/^#define MUSIC_MASK /;"	d
+PREVENT_STUCK_MODIFIERS	config.h	/^#define PREVENT_STUCK_MODIFIERS$/;"	d
+QWERTY	keymap.c	/^  QWERTY = SAFE_RANGE,$/;"	e	enum:preonic_keycodes	file:
+Qwerty	readme.md	/^## Qwerty$/;"	s
+RAISE	keymap.c	/^  RAISE$/;"	e	enum:preonic_keycodes	file:
+Raise Layer	readme.md	/^## Raise Layer$/;"	s
+Trigotometry's v1.0	readme.md	/^# Trigotometry's v1.0$/;"	c
+_LOWER	keymap.c	/^  _LOWER,$/;"	e	enum:preonic_layers	file:
+_QWERTY	keymap.c	/^  _QWERTY,$/;"	e	enum:preonic_layers	file:
+_RAISE	keymap.c	/^  _RAISE,$/;"	e	enum:preonic_layers	file:
+keymaps	keymap.c	/^const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {$/;"	v	typeref:typename:const uint16_t PROGMEM[][][]
+preonic_keycodes	keymap.c	/^enum preonic_keycodes {$/;"	g	file:
+preonic_layers	keymap.c	/^enum preonic_layers {$/;"	g	file:
+process_record_user	keymap.c	/^bool process_record_user(uint16_t keycode, keyrecord_t *record) {$/;"	f	typeref:typename:bool
